@@ -29,7 +29,7 @@
 - name: Create and start container
   docker_container:
     name: booksonic
-    image: linuxserver/booksonic
+    image: linuxserver/booksonic-air
     pull: yes
     published_ports:
       - "127.0.0.1:4042:4040"
